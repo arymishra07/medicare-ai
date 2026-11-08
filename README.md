@@ -1,12 +1,14 @@
 # MediCare AI — Smart Medical Assistant
 
+## Project overview
+
 A complete, working MERN healthcare workspace for patients, doctors and administrators. MediCare AI combines appointment booking, medicine reminders, secure medical reports, an AI health assistant and role-specific dashboards in one responsive, premium interface.
 
 Built with **React + Vite**, **Node.js + Express**, **MongoDB + Mongoose**, **JWT authentication**, **Multer** and a white / teal / blue / light-green healthcare design system.
 
 ---
 
-## What is included
+## Features
 
 ### Patient workspace
 - Personal health overview with live stats, adherence ring, activity chart and upcoming visits.
@@ -200,6 +202,32 @@ npm run seed -- --force
 ```
 
 Running `npm run seed` without `--force` only seeds when the database is empty.
+
+---
+
+## How to run the project locally
+
+Use two terminals, in this order:
+
+**Terminal 1 — backend**
+
+```powershell
+cd D:\priya\backend
+npm install
+Copy-Item .env.example .env
+npm run dev
+```
+
+**Terminal 2 — frontend**
+
+```powershell
+cd D:\priya\frontend
+npm install
+Copy-Item .env.example .env
+npm run dev
+```
+
+Then open **http://localhost:5173** and sign in with a demo account. The API health check is available at **http://localhost:5000/api/health**.
 
 ---
 
