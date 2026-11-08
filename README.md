@@ -133,7 +133,9 @@ D:\priya
 
 ---
 
-## Quick start
+## Installation
+
+Follow these steps to install dependencies and run the full stack locally.
 
 ### Prerequisites
 - **Node.js 18 or newer**
@@ -241,7 +243,7 @@ openssl rand -hex 48
 
 Never commit a real `.env` file. The repository `.gitignore` already excludes it.
 
-### Using MongoDB Atlas or a local MongoDB server
+### MongoDB configuration (Atlas or a local server)
 
 1. Create a cluster/database in MongoDB Atlas, or start a local MongoDB server.
 2. Set in `backend/.env`:
