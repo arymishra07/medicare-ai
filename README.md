@@ -146,7 +146,7 @@ Follow these steps to install dependencies and run the full stack locally.
 
 No local MongoDB installation is required for the default setup. The backend can run a persistent local MongoDB instance through `mongodb-memory-server`; data is stored in `backend/.mongo-data` and survives restarts.
 
-### 1. Start the backend
+### 1. Backend setup
 
 ```powershell
 cd D:\priya\backend
@@ -167,7 +167,7 @@ Expected response:
 { "success": true, "status": "ok", "service": "MediCare AI API" }
 ```
 
-### 2. Start the frontend
+### 2. Frontend setup
 
 ```powershell
 cd D:\priya\frontend
